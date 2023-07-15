@@ -1,0 +1,177 @@
+/* Shared Styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    margin-bottom: 100px;
+}
+.section-title{
+    color: #131313;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.section-des{
+    color: #727272;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.btn-primary{
+    padding: 15px 25px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Header Styles */
+
+.header {
+  overflow: hidden;
+  background: rgba(255, 144, 14, 0.10);
+  padding: 20px 50px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a.logo {
+  font-size: 35px;
+  font-weight: bold;
+}
+.header a:hover {
+  background-color: #FF900E;
+  color: #fff;
+}
+.header a.active {
+  background-color: rgba(255, 144, 14, 0.10);
+  color: white;
+}
+.header-right {
+  float: right;
+}
+
+/* Home Page Styles */
+.home-page{
+    background: rgba(255, 144, 14, 0.10);
+    display: grid;
+    padding: 70px 0 40px 0;
+    justify-content: center;
+    align-items: center;
+}
+.home-page-info{
+    margin-bottom: 50px;
+    padding: 0 240px;
+    text-align: center;
+}
+.home-page-title{
+    font-size: 55px;
+    font-weight: 700;
+}
+.home-page-des{
+    margin: 10px 0 30px 0;
+}
+.home-page-image{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Features Styles */
+
+
+
+/* Experience Styles */
+
+
+
+/* Facts Styles */
+
+
+
+/* Sponsors Styles */
+
+
+
+/* Footer Styles */
+
+
+
+/* --------- Responsive Starts From Here -------- */
+@media only screen and (max-width: 600px) {
+    /* Header */
+    .header{
+        width: 100%;
+    }
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      .header-right {
+        float: none;
+      }
+
+      /* Home Page */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    /* Header */
+    .header{
+        width: 100%;
+    }
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      .header-right {
+        float: none;
+      }
+
+      /* Home Page */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Header */
+    .header{
+        width: 100%;
+    }
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      .header-right {
+        float: none;
+      }
+
+      /* Home Page */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* Home Page */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Home Page */
+}
