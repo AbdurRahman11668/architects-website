@@ -12,7 +12,7 @@
   color: #131313;
   font-size: 40px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: normal;
 }
 .section-des {
@@ -177,16 +177,76 @@
 }
 
 /* Facts Styles */
-
-
+.facts{
+  padding: 0 100px;
+  margin-bottom: 100px;
+}
+.facts-title{
+  font-size: 35px;
+  font-weight: 700;
+}
+.facts-des{
+  width: 550px;
+  margin-bottom: 50px;
+}
+.facts-icons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px;
+  margin: 0 50px;
+}
+.icons-list{
+  width: 200px;
+  height: 200px;
+  border: 1px solid #FF900E;border-radius: 8px;
+}
+.icons-list img{
+  width: 40
+  px;
+  margin: 30px 0 10px 75px;
+}
+.icons-title{
+  color: #424242;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.icons-des{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 0 0 0;
+}
 
 /* Sponsors Styles */
-
-
+.sponsor{
+  text-align: center;
+  margin-bottom: 100px;
+  padding: 0 100px;
+}
+.sponsor-des{
+  padding: 20px 300px 50px 300px;
+}
+.social-media-img{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+}
+.social-media-img img{
+  width: 150px;
+}
 
 /* Footer Styles */
-
-
+.footer{
+  text-align: center;
+  padding: 30px;
+  border-radius: 8px;
+  background: #FFF4E7;
+}
+.footer-info{
+  font-size: 18px;
+  font-weight: 400;
+}
 
 /* --------- Responsive Starts From Here -------- */
 @media only screen and (max-width: 600px) {
@@ -290,6 +350,77 @@
   .experience-img img{
     width: 300px;
   }
+  /* Facts Styles */
+  .facts{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .facts-title{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .facts-des{
+    margin-bottom: 50px;
+  }
+  .facts-icons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 0 50px;
+  }
+  .icons-list{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;border-radius: 8px;
+  }
+  .icons-list img{
+    margin: 30px 0 10px 0;
+  }
+  .icons-title{
+    color: #424242;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .icons-des{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0 0 0;
+  }
+  /* Sponsors Styles */
+  .sponsor{
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 0 50px;
+  }
+  .sponsor-des{
+    padding: 15px 20px 40px 20px;
+  }
+  .social-media-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    justify-content: center;
+  }
+  .social-media-img img{
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  /* Footer Styles */
+  .footer{
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+  }
+  .footer-info{
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -387,6 +518,67 @@
   }
   .experience-img img{
     width: 400px;
+  }
+  /* Facts Styles */
+  .facts{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .facts-title{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .facts-des{
+    margin-bottom: 50px;
+  }
+  .facts-icons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 0 50px;
+  }
+  .icons-list{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;border-radius: 8px;
+  }
+  .icons-list img{
+    margin: 30px 0 10px 0;
+  }
+  .icons-title{
+    color: #424242;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .icons-des{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0 0 0;
+  }
+  /* Sponsors Styles */
+  .sponsor{
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 0 50px;
+  }
+  .sponsor-des{
+    padding: 15px 20px 40px 20px;
+  }
+  .social-media-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    justify-content: center;
+  }
+  .social-media-img img{
+    width: 120px;
+    margin-bottom: 20px;
   }
 }
 
@@ -495,6 +687,67 @@
   .experience-img img{
     width: 450px;
   }
+  /* Facts Styles */
+  .facts{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .facts-title{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .facts-des{
+    margin-bottom: 50px;
+  }
+  .facts-icons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 50px;
+  }
+  .icons-list{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;border-radius: 8px;
+  }
+  .icons-list img{
+    margin: 30px 0 10px 0;
+  }
+  .icons-title{
+    color: #424242;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .icons-des{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0 0 0;
+  }
+  /* Sponsors Styles */
+  .sponsor{
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 0 50px;
+  }
+  .sponsor-des{
+    padding: 15px 40px 40px 40px;
+  }
+  .social-media-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    justify-content: center;
+  }
+  .social-media-img img{
+    width: 120px;
+    margin-bottom: 20px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -593,6 +846,61 @@
   .experience-img .experience-btn{
     bottom: 90px;
     right: 20px;
+  }
+  /* Facts Styles */
+  .facts{
+    padding: 0 30px;
+    margin-bottom: 100px;
+  }
+  .facts-title{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .facts-des{
+    margin-bottom: 50px;
+  }
+  .facts-icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin: 0 50px;
+  }
+  .icons-list{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;border-radius: 8px;
+  }
+  .icons-list img{
+    margin: 15px 0 10px 0;
+  }
+  .icons-title{
+    color: #424242;
+    text-align: center;
+    font-size: 25px;
+  }
+  .icons-des{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0 0 0;
+  }
+  /* Sponsors Styles */
+  .sponsor{
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 0 50px;
+  }
+  .sponsor-des{
+    padding: 15px 90px 40px 90px;
+  }
+  .social-media-img{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 35px;
+    justify-content: center;
+  }
+  .social-media-img img{
+    width: 120px;
+    margin-bottom: 20px;
   }
 }
 
